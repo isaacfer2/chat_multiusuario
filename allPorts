@@ -1,0 +1,5 @@
+# Nmap 7.94SVN scan initiated Fri Dec 20 14:32:38 2024 as: /usr/lib/nmap/nmap --privileged -p- --open -sS --min-rate 5000 -vvv -n -Pn -oG allPorts 189.235.177.206
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 189.235.177.206 ()	Status: Up
+Host: 189.235.177.206 ()	Ports: 12/open/tcp/////, 53/open/tcp//domain///, 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 1111/open/tcp//lmsocialserver///, 1113/open/tcp//ltp-deepspace///, 3389/open/tcp//ms-wbt-server///, 3394/open/tcp//d2k-tapestry2///, 3395/open/tcp//dyna-lm///, 3398/open/tcp//sapcomm///, 4433/open/tcp//vop///, 5985/open/tcp//wsman///, 49155/open/tcp/////, 49156/open/tcp/////
+# Nmap done at Fri Dec 20 14:33:44 2024 -- 1 IP address (1 host up) scanned in 65.88 seconds

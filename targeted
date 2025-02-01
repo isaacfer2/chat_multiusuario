@@ -1,0 +1,22 @@
+# Nmap 7.94SVN scan initiated Fri Dec 20 14:45:08 2024 as: /usr/lib/nmap/nmap --privileged -p12,4433,80 -sCV -oN targeted 189.235.177.206
+Nmap scan report for dsl-189-235-177-206-dyn.prod-infinitum.com.mx (189.235.177.206)
+Host is up (0.011s latency).
+
+PORT     STATE SERVICE VERSION
+12/tcp   open  http    Microsoft IIS httpd 8.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: Servicio Social y Pr\xC3\xA1cticas Profesionales
+80/tcp   open  http    Microsoft IIS httpd 8.0
+|_http-server-header: Microsoft-IIS/8.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: ACCESO-EXPEDIENTE DIGITAL S.T.C.
+4433/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: Portal|Digital
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Dec 20 14:45:25 2024 -- 1 IP address (1 host up) scanned in 17.50 seconds
