@@ -22,10 +22,7 @@ Para instalar y ejecutar este proyecto, sigue estos pasos:
    ```bash
    cd chat_multiusuario
    ```
-3. Instala las dependencias necesarias:
-   ```bash
-   pip install -r requirements.txt
-   ```
+
 
 ## Uso
 
